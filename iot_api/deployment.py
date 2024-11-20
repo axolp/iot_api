@@ -10,7 +10,7 @@ CSRF_TRUSTED_ORIGINS= [
  ]
 
 DEBUG= False
-
+SECRET_KEY = os.environ['SECRET']
 MIDDLEWARE = [
      'django.middleware.security.SecurityMiddleware',
      'whitenoise.middleware.WhiteNoiseMiddleware',
