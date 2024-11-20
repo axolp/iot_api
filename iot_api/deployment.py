@@ -3,7 +3,7 @@ from .settings import *
 from .settings import BASE_DIR
 
 
-#fake komentarz
+#fake komentarz 2
 ALLOWED_HOSTS= ['*']
 
 CSRF_TRUSTED_ORIGINS= [
