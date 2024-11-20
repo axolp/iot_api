@@ -2,6 +2,8 @@ import os
 from .settings import *
 from .settings import BASE_DIR
 
+
+#fake komentarz
 ALLOWED_HOSTS= ['*']
 
 CSRF_TRUSTED_ORIGINS= [
